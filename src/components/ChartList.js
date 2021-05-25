@@ -9,7 +9,7 @@ if(!loaded){
 
     const songItems = songs.map((song) => {
         return(
-            <SongItem song={song} />
+            <SongItem class="song-item" song={song} />
         )
     })
     return (
